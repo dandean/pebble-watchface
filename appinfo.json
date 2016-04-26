@@ -1,0 +1,32 @@
+{
+  "uuid": "744f9e5e-7992-4761-b201-97323bae4656",
+  "shortName": "watchface-a",
+  "longName": "watchface-a",
+  "companyName": "Dan Dean",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt", "chalk"],
+  "enableMultiJS": true,
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+      {
+        "characterRegex": "[0-9:APM ]",
+        "type": "font",
+        "name": "FONT_OPEN_SANS_LIGHT_50",
+        "file": "OpenSans-Light.ttf"
+      },
+      {
+        "characterRegex": "[0-9:APM ]",
+        "type": "font",
+        "name": "FONT_OPEN_SANS_EXTRA_BOLD_50",
+        "file": "OpenSans-ExtraBold.ttf"
+      }
+    ]
+  }
+}
